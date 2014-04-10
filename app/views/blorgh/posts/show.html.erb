@@ -11,4 +11,8 @@
 </p>
 
 <%= link_to 'Edit', edit_post_path(@post) %> |
+
+<h3>Comments</h3>
+<%= render @post.comments %>
+
 <%= link_to 'Back', posts_path %>
